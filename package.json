@@ -1,0 +1,32 @@
+{
+  "name": "clues",
+  "version": "0.1.0",
+  "description": "Carbon Lighthouse Unified Engineering System",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarbonLighthouse/clues.git"
+  },
+  "author": "Carbon Lighthouse <carbonlighthouse@carbonlighthouse.com>",
+  "license": "Commercial",
+  "bugs": {
+    "url": "https://github.com/CarbonLighthouse/clues/issues"
+  },
+  "homepage": "https://github.com/CarbonLighthouse/clues#readme",
+  "private": true,
+  "dependencies": {
+    "async": "^1.1.0",
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "jade": "^1.10.0",
+    "mongodb": "^2.0.33"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3",
+    "supertest": "^1.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+  body
+    h1= title
+    if contacts
+      table
+        tr
+          th Name
+          th Email
+        each contact in contacts
+          tr
+            td= contact.name
+            td= contact.email
+
